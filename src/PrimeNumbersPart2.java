@@ -1,11 +1,11 @@
 import java.util.Scanner;
-public class PrimeNumbers {
+public class PrimeNumbersPart2 {
     public static void main(String[] args) {
         int numbersToPrint = 20;
         int count = 0;
         int N = 2;
-        System.out.println(" 20 số nguyên tố đầu tiên là:");
-        while (count < numbersToPrint) {
+        System.out.println(" Số nguyên tố nhỏ hơn 100 là:");
+        while (N < 100) {
             if (isPrime(N)) {
                 System.out.print(N + " ");
                 count++;
